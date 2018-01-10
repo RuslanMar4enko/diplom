@@ -1,0 +1,23 @@
+header.main-header .header-container {
+    margin: 0 auto;
+    padding: 60px 0px;
+    background-color: rgba(8, 134, 196, 0.96);
+    font-family: "PTSansCaptionBold";
+    background-image: url(../image/crest.png);
+    background-repeat: no-repeat;
+    background-position: 75px 82px;
+}
+
+header.main-header .text {
+    padding-left: 190px;
+    text-shadow: 0 -2px 3px rgba(0, 3, 1, 0.64);
+    color: #fff;
+}
+
+.show-title{
+    text-align: center;
+}
+
+.name-profile{
+    text-transform: uppercase;
+}
