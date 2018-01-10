@@ -6,6 +6,13 @@
         <div class="container">
             <h3>Розділі ІI:</h3>
             <div>
+            <p>
+                Особи, які зареєстровані (для орендарів — особи, які фактично проживають) у житловому
+                приміщенні/будинку. А також, всі види доходів осіб, які зареєстровані (фактично проживають) у житловому
+                приміщенні /будинку, у тому числі від розміщення депозитів, здачі майна в оренду за період.
+            </p>
+            </div>
+            <div>
                 <div class="form-group">
                     <label>Прізвище, ім’я, по батькові</label>
                     <input type="text" class="form-control" name="full_name"
@@ -31,7 +38,7 @@
                     <label>Джерело доходу</label>
                     <input class="form-control" name="source_income" placeholder="Централізоване опалення" required>
                 </div>
-                <button type="submit" style="float: left;" class="btn btn-default right">Submit</button>
+                <button type="submit" style="float: left;" class="btn btn-default right">Відправити</button>
             </div>
         </div>
     </form>

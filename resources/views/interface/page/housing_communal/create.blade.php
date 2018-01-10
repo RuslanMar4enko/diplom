@@ -4,7 +4,12 @@
     <form method="post" action="{{ action('HousingCommunalsController@store') }}" enctype="multipart/form-data">
         {{ csrf_field() }}
         <div class="container">
-            <h3>Продовження розділу ІI:</h3>
+            <h3>Продовження розділу І:</h3>
+            <div>
+                <p>Відомості про житлово-комунальні послуги, якими користуються особи, які
+                    зареєстровані (фактично проживають) у житловому приміщенні/будинку
+                </p>
+            </div>
             <div>
                 <div class="form-group">
                     <label>Утримання будинків і споруд та прибудинкових територій</label>
@@ -39,7 +44,16 @@
                     <label>Вивезення побутових відходів</label>
                     <input class="form-control" name="household_waste_removal" placeholder="Вивезення побутових відходів" required>
                 </div>
-                <button type="submit" style="float: left;" class="btn btn-default right">Submit</button>
+                <div>
+                    <p>
+                        У разі коли прийняття рішення щодо моєї заяви потребує окремого рішення
+                        місцевих органів виконавчої влади/місцевого самоврядування або утвореної ними
+                        комісії, прошу розглянути/не розглядати мою заяву відповідними органами або
+                        утвореною ними комісією (необхідне підкреслити).
+
+                    </p>
+                </div>
+                <button type="submit" style="float: left;" class="btn btn-default right">Відправити</button>
             </div>
         </div>
     </form>

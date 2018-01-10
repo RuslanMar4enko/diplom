@@ -37,8 +37,14 @@
                     <label>Реєстраційний номер облікової картки платника податків</label>
                     <input class="form-control" name="card_taxes" placeholder="Картки платника податків" required>
                 </div>
-                <button type="submit" style="float: left;" class="btn btn-default right">Submit</button>
+                <div>
+                    <p>Прошу призначити субсидію для відшкодування витрат на оплату житлово-
+                        комунальних послуг, на придбання скрапленого газу, твердого та рідкого пічного
+                        побутового палива (необхідне підкреслити).s</p>
+                </div>
+                <button type="submit"  class="btn btn-default right">Відправити</button>
             </div>
+
         </div>
     </form>
 @endsection

@@ -13,7 +13,7 @@
                     <td>{{$cost->cost_property}}</td>
                     <td>{{$cost->data_costs}}</td>
                     <td class="display-margin">
-                        {{--<a class="btn btn-small btn-info" href="{{ URL::to('admin/posts/' . $cost->id . '/edit') }}">Edit</a>--}}
+                        <a class="btn btn-small btn-info" href="{{ URL::to('costs/' . $cost->id . '/edit') }}">Edit</a>
                         {{ Form::open(array('url' => 'costs/' . $cost->id)) }}
                         {{ Form::hidden('_method', 'DELETE') }}
                         {{ Form::submit('Delete', array('class' => 'btn btn-small del btn-danger')) }}
