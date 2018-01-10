@@ -16,5 +16,22 @@ Route::get('/', 'AppController@home');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/profile/{id}', 'ProfilesController@show')->middleware('auth');;
+Route::get('/sencs', 'ProfilesController@sencs')->name('sencs');
+Route::get('/profile/{id}', 'ProfilesController@show')->middleware('auth');
+//Route::resource('data_users', 'DataUsersController')->middleware('auth');
+Route::resource('data_users', 'DataUsersController', ['except' => [
+    'show'
+]])->middleware('auth');
+
+Route::resource('housing_communals', 'HousingCommunalsController', ['except' => [
+    'show'
+]])->middleware('auth');
+
+Route::resource('revenues', 'RevenuesController', ['except' => [
+    'show'
+]])->middleware('auth');
+
+Route::resource('costs', 'CostsController', ['except' => [
+    'show'
+]])->middleware('auth');
 

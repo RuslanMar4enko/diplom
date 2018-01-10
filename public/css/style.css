@@ -21,3 +21,16 @@ header.main-header .text {
 .name-profile{
     text-transform: uppercase;
 }
+
+.title-end{
+    text-align: center;
+}
+
+.mini-tite{
+    text-align: center;
+}
+
+.title-index{
+    text-align: center;
+    margin-bottom: 40px;
+}

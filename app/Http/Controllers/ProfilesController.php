@@ -18,4 +18,8 @@ class ProfilesController extends Controller
        }
 
     }
+
+    public function sencs(){
+        return view('/interface.page.secncs');
+    }
 }
